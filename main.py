@@ -27,7 +27,7 @@ def read_root():
 
 @app.get("/vibration")
 def read_firebase():
-    return {"machine-ex01": {
+    return {"machineEx01": {
         "waveformX": dataX,
         "waveformY": dataY,
         "waveformZ": dataZ,
